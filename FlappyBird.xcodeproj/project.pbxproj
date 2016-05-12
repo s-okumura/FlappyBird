@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		290A7D5A1CE37F7500BD2EB0 /* button16.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 290A7D591CE37F7500BD2EB0 /* button16.mp3 */; };
 		291CCCB41CDB27B8004BB104 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 291CCCB31CDB27B8004BB104 /* AppDelegate.swift */; };
 		291CCCB61CDB27B8004BB104 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 291CCCB51CDB27B8004BB104 /* ViewController.swift */; };
 		291CCCB91CDB27B8004BB104 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 291CCCB71CDB27B8004BB104 /* Main.storyboard */; };
@@ -15,10 +14,10 @@
 		291CCCBE1CDB27B8004BB104 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 291CCCBC1CDB27B8004BB104 /* LaunchScreen.storyboard */; };
 		291CCCC61CDB2839004BB104 /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 291CCCC51CDB2839004BB104 /* SpriteKit.framework */; };
 		291CCCC81CDB2CAC004BB104 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 291CCCC71CDB2CAC004BB104 /* GameScene.swift */; };
+		2922CBA71CE4A8F900B36586 /* button16.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2922CBA61CE4A8F900B36586 /* button16.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		290A7D591CE37F7500BD2EB0 /* button16.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = button16.mp3; path = ../../../Downloads/button16.mp3; sourceTree = "<group>"; };
 		291CCCB01CDB27B8004BB104 /* FlappyBird.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlappyBird.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		291CCCB31CDB27B8004BB104 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		291CCCB51CDB27B8004BB104 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -28,6 +27,7 @@
 		291CCCBF1CDB27B8004BB104 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		291CCCC51CDB2839004BB104 /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
 		291CCCC71CDB2CAC004BB104 /* GameScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		2922CBA61CE4A8F900B36586 /* button16.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = button16.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,7 +62,7 @@
 		291CCCB21CDB27B8004BB104 /* FlappyBird */ = {
 			isa = PBXGroup;
 			children = (
-				290A7D591CE37F7500BD2EB0 /* button16.mp3 */,
+				2922CBA61CE4A8F900B36586 /* button16.mp3 */,
 				291CCCB31CDB27B8004BB104 /* AppDelegate.swift */,
 				291CCCB51CDB27B8004BB104 /* ViewController.swift */,
 				291CCCC71CDB2CAC004BB104 /* GameScene.swift */,
@@ -133,8 +133,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				290A7D5A1CE37F7500BD2EB0 /* button16.mp3 in Resources */,
 				291CCCBE1CDB27B8004BB104 /* LaunchScreen.storyboard in Resources */,
+				2922CBA71CE4A8F900B36586 /* button16.mp3 in Resources */,
 				291CCCBB1CDB27B8004BB104 /* Assets.xcassets in Resources */,
 				291CCCB91CDB27B8004BB104 /* Main.storyboard in Resources */,
 			);
